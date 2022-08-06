@@ -1,5 +1,7 @@
 body{
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  background-color:tan;
+  color: grey;
  }
  .dim{
     opacity: 0.1555;
@@ -37,5 +39,7 @@ body{
   #paint-info-container {
     height: 5.5em;
   }
-
+  img:hover {
+    filter: brightness(60%);
+}
   
